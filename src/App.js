@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 
-import HookArray from "../components/HookArray";
+import HookCount1 from "../components/HookCounter1";
 
 export default function App() {
   return (
     <div className="App">
       <h1>This is app compoennt</h1>
-      <HookArray />
+      <HookCount1 />
     </div>
   );
 }
